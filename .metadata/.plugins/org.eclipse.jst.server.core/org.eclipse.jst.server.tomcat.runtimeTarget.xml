@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/catalina.jar" runtime-id="Apache Tomcat v6.0" source-attachment-path="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/catalina.jar"/>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/servlet-api.jar" runtime-id="Apache Tomcat v6.0" source-attachment-path="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/servlet-api.jar"/>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v6.0" source-attachment-path="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/tomcat-coyote.jar"/>
+</classpath>

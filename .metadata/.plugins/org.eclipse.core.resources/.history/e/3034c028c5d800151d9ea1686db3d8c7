@@ -1,0 +1,145 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ include file="sessionval.jsp"%>
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/signin.css" rel="stylesheet">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : GrassyGreen 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140310
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GrassyGreen</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="home.jsp">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Add Product</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="logout">logout</a></li>
+			</ul>
+		</div>
+		<!-- end #menu --> 
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">GrassyGreen</a></h1>
+				<p>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a></p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+<form class="form-addproduct" role="form"  action ="product" method="post">
+
+   <label for="id">Product ID:</label>
+<input type="text" name="pid"  readonly ="readonly"class="form-control" id="id"  required autofocus>
+<br>
+<label for="pn">Product Name:</label>
+<input type="text" name="Pname" class="form-control" placeholder=" Product Name" id="pn" required >
+
+<br>
+<label for="pp">Product Price:</label>
+<input type="text" name="Pprice" class="form-control" placeholder="Product Price" required id="pp">
+<br>
+<label for="pq">Product Quantity:</label>
+<input type="number" name="Pqty" class="form-control" placeholder="Product Quantity" required id="pq">
+<br>
+<input name="submit" button class="btn btn-lg btn-primary btn-block" type="submit" value=" submit">
+				</div>
+		<div id="sidebar">
+			<div class="box2">
+				<div class="title">
+					<h2>Integer gravida</h2>
+				</div>
+				<ul class="style2">
+					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+					<li><a href="#">Ornare in hendrerit in lectus</a></li>
+					<li><a href="#">Semper mod quis eget mi dolore</a></li>
+					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+					<li><a href="#">Consequat etiam lorem phasellus</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		<div id="box1">
+			<div class="title">
+				<h2>Latest Post</h2>
+			</div>
+			<ul class="style1">
+				<li><a href="#">Semper mod quis eget mi dolore</a></li>
+				<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+				<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+				<li><a href="#">Consequat etiam lorem phasellus</a></li>
+				<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+				<li><a href="#">Semper mod quisturpis nisi</a></li>
+			</ul>
+		</div>
+		<div id="box2">
+			<div class="title">
+				<h2>Popular Links</h2>
+			</div>
+			<ul class="style1">
+				<li><a href="#">Semper mod quis eget mi dolore</a></li>
+				<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+				<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+				<li><a href="#">Consequat etiam lorem phasellus</a></li>
+				<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+				<li><a href="#">Semper mod quisturpis nisi</a></li>
+			</ul>
+		</div>
+		<div id="box3">
+			<div class="title">
+				<h2>Follow Us</h2>
+			</div>
+			<p>Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet magna.</p>
+			<ul class="contact">
+				<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+				<li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
+				<li><a href="#" class="icon icon-dribbble"><span>Dribbble</span></a></li>
+				<li><a href="#" class="icon icon-tumblr"><span>Tumblr</span></a></li>
+				<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+			</ul>
+				<a href="#" class="button">Read More</a> </div>
+		</div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+</body>
+</html>
